@@ -1,0 +1,125 @@
+/*头部标栏样式*/
+*{
+	margin:0;
+	padding:0;
+}
+ol,ul,li,dl,dd,dt{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.site_topbar{
+	width:1903px;
+	height:40px;
+	color:#b0b0b0;
+	background-color:#333;
+}
+.site_topbar .topbar_left{
+	margin-left:315px;
+}
+.site_topbar .topbar_left .list{
+	list-style:none;
+}
+.site_topbar .topbar_left .list a:hover{
+	color:white;
+}
+.site_topbar .topbar_left .list .left{
+	float:left;
+	margin-top:8px;
+	margin-left:20px;
+}
+.site_topbar .topbar_left .list .list_style{
+	text-decoration:none;
+	color:#b0b0b0;
+	font-size:12px;
+}
+.site_topbar .topbar_right .a_style{
+	display:inline-block;
+	text-decoration:none;
+	color:#b0b0b0;
+	font-size:12px;
+	margin-top:12px;
+}
+.site_topbar .topbar_right .a_1{
+	margin-left:500px;
+}
+.site_topbar .topbar_right .a_2{
+	margin-left:11px;
+}
+.site_topbar .topbar_right .a_3{
+	margin-left:66px;
+}
+.site_topbar .topbar_right .i_style{
+	position:absolute;
+	margin-top:13px;
+	margin-left:43px;
+}
+.site_topbar .topbar_right a:hover{
+	color:white;
+}
+/*.site_topbar .topbar_right img:hover{
+	color:white;
+}*/
+
+/*中部logo*/
+.site_header{
+	width:1903px;
+	height:100px;
+/*	background:pink;*/
+}
+.site_header .header_left_logo{
+	margin-top:22px;
+	margin-left:340px;
+}
+.site_header .header_content_nav{
+	margin-top:-40px;
+	margin-left:550px;
+}
+.site_header .header_content_nav .left{
+	float:left;
+	margin-left:28px;
+}
+.site_header .header_content_nav .list_sty{
+	color:#333;
+}
+.site_header .header_content_nav a{
+	text-decoration:none;
+}
+.site_header .header_content_nav a:hover{
+	color:red;
+}
+.header_right_search{
+/*	width:1000px;*/
+}
+.header_right_search .r_search{
+	margin-top:-58px;
+	margin-left:1305px;
+}
+.header_right_search .r_search .search_style{
+	width:190px;
+	height:50px;
+	padding:0 10px;
+	opacity:0.5;
+	margin-top:3px;
+	outline:0;
+}
+.header_right_search .r_search a{
+	display:inline-block;
+	width:52px;
+	height:52px;
+	border:1px solid rgba(0,0,0,0.3);
+	margin-left:-6px;
+	text-align:center;
+	line-height:50px;
+}
+.header_right_search .r_search a img{
+	position:relative;
+	top:7px;
+	left:0;
+}
+.header_right_search .r_search a:hover{
+	background-color:#ff6700;
+	color:white;
+	border-color:#ff6700;
+}

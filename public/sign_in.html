@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+	<link rel="stylesheet" href="./CSS/sign_in.css">
+ </head>
+ <body onload="random()">
+ 	<div class="bigcontent">
+		<!--登录页面的头部-->
+		<div class='login'>
+			<div class='login_logo'></div>
+			<div class="login_right">
+				<div class="formlist">
+					<h1>会员登录</h1>
+					<a href="./register.html">免费注册</a>
+					<div class="usermessages">
+						<input type="text" name='uname' id='uname' placeholder='用户名/邮箱地址/已验证手机号'>
+						<input type="password" name='upwd' id='upwd' placeholder='填写密码'>
+						<input type="text" name='v_code' id='v_code' maxlength="4" placeholder='验证码'>
+						<input type="checkbox" name='auto' id='auto' class='checkbox'>
+						<label for="auto">下次自动登录</label>
+						<a href="javascript:;" class='agree'>忘记密码？</a>
+						<a href="javascript:;" id="login" class='login'>去登陆</a>
+						<p id='random_number'></p>
+						<p onclick="random()"><i>看不清楚,换一个？</i></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--登录页面的底部-->
+		<footer>
+			<iframe src="./footer.html" frameborder="0" scrolling='no' class='my_footer'></iframe>	
+		</footer>
+	</div>
+	<script src="./JS/jquery-1.11.3.js"></script>
+	<script src="./JS/sign_in.js"></script>
+ </body>
+</html>

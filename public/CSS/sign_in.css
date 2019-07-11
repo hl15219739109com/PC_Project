@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+}
+.my_footer{
+	position:absolute;
+	width:100%;
+	height:241px;
+	top:698px;
+	left:0;
+}
+
+/*登录头部样式*/
+.login{
+	width:1170px;
+	position:relative;
+	margin:0 auto;
+}
+.login_logo{
+	width:700px;
+	height:500px;
+	background:url('../image/login_register.jpg') no-repeat 50% 50%;
+	background-size:contain;
+	position:relative;
+	top:150px;
+	left:0;
+}
+.login_right{
+	position:absolute;
+	top:170px;
+	left:680px;
+}
+.login_right .formlist h1{
+	font-size:28px;
+}
+.login_right .formlist>a{
+	font-size:14px;
+	color:#111111;
+	opacity:0.5;
+	text-decoration:none;
+	position:relative;
+	top:-30px;
+	left:310px;
+}
+.login_right .formlist>a:hover{
+	color:lightpink;
+}
+.login_right .formlist .usermessages input{
+	width:370px;
+	height:40px;
+	font-size:14px;
+	display:block;
+	box-sizing:border-box;
+	border:1px solid rgba(0,25,50,0.15);
+	margin:25px 0;
+	padding:0.5em 1em;
+	outline:none;
+	border-radius:2px;
+}
+.login_right .formlist .usermessages .checkbox{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	font-size:14px;
+	line-height:16px;
+	margin:0 0;
+}
+.login_right .formlist .usermessages .agree{
+	font-size:14px;
+	color:currentColor;
+	text-decoration:none;
+	margin-left:185px;
+}
+.login_right .formlist .usermessages a:nth-child(6):hover{
+	color:orange;
+}
+.login_right .formlist .usermessages .login{
+	display:block;
+	width:370px;
+	height:40px;
+	font-size:16px;
+	background:#f60;
+	color:white;
+	text-align:center;
+	line-height:40px;
+	border-radius:4px;
+	border:0;
+	margin-top:15px;
+	text-decoration:none;
+}
+.login_right .formlist .usermessages p{
+	position:absolute;
+	top:220px;
+	left:244px;
+	color:rgba(0,25,50,0.15)
+}
+.login_right .formlist .usermessages p:hover{
+	cursor: pointer;
+}
+.login_right .formlist .usermessages #random_number{
+	border:2px solid rgba(228, 211, 200,0.2);
+	font-size:26px;
+	margin-top:-6px;
+	margin-left:-85px;
+	color:#f60;
+}
+/*登录底部样式*/

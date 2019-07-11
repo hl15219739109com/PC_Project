@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+}
+.my_footer{
+	position:absolute;
+	width:100%;
+	height:241px;
+	top:698px;
+	left:0;
+}
+
+/*注册头部样式*/
+.reg{
+	width:1170px;
+	position:relative;
+	margin:0 auto;
+}
+.reg::after{
+	display:block;
+	content:'';
+	clear:both;
+}
+.reg_logo{
+	width:700px;
+	height:500px;
+	background:url('../image/login_register.jpg') no-repeat 50% 50%;
+	background-size:contain;
+	position:relative;
+	top:150px;
+	left:0;
+}
+.reg_right{
+	position:absolute;
+	top:170px;
+	left:680px;
+}
+.reg_right .formlist h1{
+	font-size:28px;
+}
+.reg_right .formlist>a{
+	font-size:14px;
+	color:#111111;
+	opacity:0.5;
+	text-decoration:none;
+	position:relative;
+	top:-30px;
+	left:274px;
+}
+.reg_right .formlist>a:hover{
+	color:lightpink;
+}
+.reg_right .formlist .usermessages{
+	position:relative;
+}
+.reg_right .formlist .usermessages input{
+	width:370px;
+	height:40px;
+	font-size:14px;
+	display:block;
+	box-sizing:border-box;
+	border:1px solid rgba(0,25,50,0.15);
+	margin:25px 0;
+	padding:0.5em 1em;
+	outline:none;
+	border-radius:2px;
+}
+.reg_right .formlist .usermessages span{
+	position:absolute;
+	display:none;
+	font-size:14px;
+	border-radius:8px;
+	width:368px;
+	height:20px;
+	margin-top:-24px;
+}
+.reg_right .formlist .usermessages .fail{
+	display:block;
+	border:1px solid #f00;
+	color:#fff;
+	background:pink;
+}
+.reg_right .formlist .usermessages .success{
+	display:block;
+	border:1px solid #0f0;
+	color:#fff;
+	background:#f67000;
+}
+.reg_right .formlist .usermessages .checkbox{
+	width:16px;
+	height:16px;
+	display:inline-block;
+	font-size:14px;
+	line-height:16px;
+	margin:0 0;
+}
+.reg_right .formlist .usermessages .agree{
+	font-size:14px;
+	font-weight:bold;
+	color:currentColor;
+	text-decoration:none;
+}
+.reg_right .formlist .usermessages .login{
+	display:block;
+	width:370px;
+	height:40px;
+	font-size:16px;
+	background:rgb(255,179,128);
+	color:white;
+	text-align:center;
+	line-height:40px;
+	border-radius:4px;
+	border:0;
+	margin-top:15px;
+	text-decoration:none;
+}
+
+.reg_right .formlist .usermessages p{
+	position:absolute;
+	top:204px;
+	left:244px;
+	color:rgba(0,25,50,0.15)
+}
+.reg_right .formlist .usermessages p i{
+	display:inline-block;
+	width:132px;
+}
+.reg_right .formlist .usermessages p:hover{
+	cursor: pointer;
+}
+.reg_right .formlist .usermessages #random_number{
+	border:2px solid rgba(228, 211, 200,0.2);
+	font-size:26px;
+	margin-top:-8px;
+	margin-left:-85px;
+	color:#f60;
+}
+/*注册底部样式*/

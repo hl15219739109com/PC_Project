@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	padding:0;
+}
+.reg_footer_bg{
+	width:100%;
+	background:#24262c;
+}
+/*注册底部样式*/
+.reg_footer{
+	width:1226px;
+	background:#24262c;
+	position:relative;
+	opacity:0.9;
+	top:0px;
+	left:0;
+	margin:0 auto;
+}
+.reg_footer::before{
+	content:'';
+	display:table;
+}
+.reg_footer .logo img{
+	display:block;
+	margin-top:100px;
+	margin-left:35px;
+	margin-bottom:60px;
+}
+.reg_footer .left{
+	position:absolute;
+	top:40px;
+	left:435px;
+}
+.reg_footer .center{
+	position:absolute;
+	top:40px;
+	left:795px;
+}
+.reg_footer .right{
+	position:absolute;
+	top:40px;
+	left:1155px;
+}
+.reg_footer h3{
+	color:white;
+	font-size:16px;
+}
+.reg_footer ul{
+	list-style:none;
+}
+.reg_footer a{
+	display:block;
+	line-height:28px;
+	color:#ccc;
+	opacity:0.3;
+	text-decoration:none;
+	margin-top:10px;
+}
+.reg_footer a:hover{
+	color:#5f5959;
+}
+.reg_footer .copyright{
+	width:100%;
+	box-sizing:border-box;
+	background:#16181d;
+	color:#ccc;
+	opacity:0.3;
+/*	padding:10px 20px;*/
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:0px;
+	line-height:20px;
+	text-align:center;
+}
+.reg_footer::after{
+	content:'';
+	display:block;
+	clear:both;
+}

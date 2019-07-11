@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+	<link rel="stylesheet" href="./CSS/register.css">
+</head>
+ <body onload="random()">
+ 	
+	<!--注册页面的头部-->
+	<div class='reg'>
+		<div class='reg_logo'></div>
+		<div class="reg_right">
+			<div class="formlist">
+				<h1>会员注册</h1>
+				<a href="./sign_in.html">已注册，去登陆</a>
+				<div class="usermessages">
+					<input data-sure="input" type="text" name='uname' id='uname' placeholder='注册手机号'>
+					<span></span>
+					<input data-sure="input" type="password" name='upwd' id='upwd' placeholder='填写密码'>
+					<span></span>
+					<input data-sure="input" type="password" name='sureupwd' id='sureupwd' placeholder='再次填写密码'>
+					<span></span>
+					<input data-sure="input" type="text" name='v_code' id='v_code' placeholder='验证码'>
+					<span></span>
+					<input type="checkbox" name='agree' id='agree' class='checkbox'>
+					<label for="agree">我已阅读并同意</label>
+					<a href="javascript:;" class='agree'><<会员注册协议>></a>
+					<a href="javascript:;" class='login'>立即注册</a>
+					<p id='random_number'></p>
+					<p onclick="random()"><i>看不清楚,换一个？</i></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!--注册页面的底部-->
+	<footer>
+		<iframe src="./footer.html" frameborder="0" scrolling='no' class='my_footer'></iframe>
+	</footer>
+	<script src="./JS/jquery-1.11.3.js"></script>
+	<script src="./JS/register.js"></script>
+ </body>
+</html>
